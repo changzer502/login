@@ -1,0 +1,56 @@
+.box{
+    width: 270px;
+    height: 300px;
+    margin: 50px ;
+    float: right;
+    border:2px solid green ;    /*边框*/
+    border-radius: 14px;
+}
+.input{
+    width: 230px;
+    height: 50px;
+    margin: 20px auto;
+    border:1px solid green ;    /*边框*/
+    border-radius: 5px;
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 50px;        /*设置文字行距等于div的高度*/
+}
+button{
+    width: 230px;
+    height: 40px;
+    /*margin: 0 auto;*/
+    /*margin-left: 10px;*/
+    margin-left: 20px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 40px;        /*设置文字行距等于div的高度*/
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height: 16px;
+    width: 160px;
+    /*background-color: transparent;*/
+}
+.head{
+    width:270px;height:40px;  /*设置div的大小*/
+    border-bottom:2px solid green;    /*边框*/
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 40px;        /*设置文字行距等于div的高度*/
+}
+
+a{
+    display: inline-block;
+    width: 150px;
+    height: 13px;
+    margin-top: 20px;
+    margin-left: 110px;
+    color: cornflowerblue;
+    font-size: 13px;
+    text-align: right;
+    text-decoration:none;
+}

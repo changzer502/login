@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url("static/images/index.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
+    .box{
+        width: 150px;
+        height: 30px;
+        border: 1px solid green;
+        text-align: center;
+        line-height: 30px;
+        float: right;
+        font-size: 13px;
+    }
+    a{
+        text-decoration:none;
+        color: cornflowerblue;
+        font-size: 13px;
+    }
+
+</style>
+
+<body>
+
+<div class="box">
+    请登录,
+    <a href="/login" >点击登录</a>
+</div>
+</body>
+</html>
